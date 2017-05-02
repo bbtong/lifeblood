@@ -26,7 +26,7 @@ class SignupViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     
     /* Picker setup. */
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 8
+        return 1
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
@@ -46,8 +46,8 @@ class SignupViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
         super.viewDidLoad()
         nameField.delegate = self
         ageField.delegate = self
-        //bloodTypeField.delegate = self as! UIPickerViewDelegate
-        //bloodTypeField.dataSource = self as! UIPickerViewDataSource
+        bloodTypeField.delegate = self
+        bloodTypeField.dataSource = self
         //purposeField.delegate = self
         locationField.delegate = self
         emailField.delegate = self
