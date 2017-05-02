@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15329B2DCC81796AE806422D /* Pods_LifebloodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DC974602FB0E5A1416992A /* Pods_LifebloodTests.framework */; };
+		A28FA7EC5CF9803DF80700FD /* Pods_LifebloodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAE4810E717D96187642BDB /* Pods_LifebloodUITests.framework */; };
+		BDF762581EA034B8007CCDE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF762571EA034B8007CCDE5 /* AppDelegate.swift */; };
+		BDF7625A1EA034B8007CCDE5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF762591EA034B8007CCDE5 /* FirstViewController.swift */; };
+		BDF7625C1EA034B8007CCDE5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7625B1EA034B8007CCDE5 /* SecondViewController.swift */; };
+		BDF7625F1EA034B8007CCDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF7625D1EA034B8007CCDE5 /* Main.storyboard */; };
+		BDF762611EA034B8007CCDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF762601EA034B8007CCDE5 /* Assets.xcassets */; };
+		BDF762641EA034B8007CCDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF762621EA034B8007CCDE5 /* LaunchScreen.storyboard */; };
+		BDF7626F1EA034B8007CCDE5 /* LifebloodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7626E1EA034B8007CCDE5 /* LifebloodTests.swift */; };
+		BDF7627A1EA034B8007CCDE5 /* LifebloodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF762791EA034B8007CCDE5 /* LifebloodUITests.swift */; };
+		BDF762891EA03ACD007CCDE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF762881EA03ACD007CCDE5 /* LoginViewController.swift */; };
+		BDF7628B1EA03ADB007CCDE5 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7628A1EA03ADB007CCDE5 /* SignupViewController.swift */; };
+		BDF7628D1EA03C8B007CCDE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDF7628C1EA03C8B007CCDE5 /* GoogleService-Info.plist */; };
+		BDF7628E1EA03C8B007CCDE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDF7628C1EA03C8B007CCDE5 /* GoogleService-Info.plist */; };
+		BDF7628F1EA03C8B007CCDE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDF7628C1EA03C8B007CCDE5 /* GoogleService-Info.plist */; };
+		E7C85113A142788574C92684 /* Pods_Lifeblood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2EBDB416E9F736511F453 /* Pods_Lifeblood.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF7626B1EA034B8007CCDE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF7624C1EA034B8007CCDE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF762531EA034B8007CCDE5;
+			remoteInfo = Lifeblood;
+		};
+		BDF762761EA034B8007CCDE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF7624C1EA034B8007CCDE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF762531EA034B8007CCDE5;
+			remoteInfo = Lifeblood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D446D7414CD256B468B3CC /* Pods-Lifeblood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lifeblood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lifeblood/Pods-Lifeblood.debug.xcconfig"; sourceTree = "<group>"; };
+		18DC974602FB0E5A1416992A /* Pods_LifebloodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifebloodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2725A484E380D11BB89034CD /* Pods-Lifeblood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lifeblood.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lifeblood/Pods-Lifeblood.release.xcconfig"; sourceTree = "<group>"; };
+		4C1547EC68FAC53BD72D1149 /* Pods-LifebloodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifebloodUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifebloodUITests/Pods-LifebloodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		609F62BFEB81AA66E2DC6258 /* Pods-LifebloodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifebloodUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifebloodUITests/Pods-LifebloodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71B2EBDB416E9F736511F453 /* Pods_Lifeblood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lifeblood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAE4810E717D96187642BDB /* Pods_LifebloodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifebloodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EAFB4468858D56999140F9 /* Pods-LifebloodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifebloodTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifebloodTests/Pods-LifebloodTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDF762541EA034B8007CCDE5 /* Lifeblood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifeblood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF762571EA034B8007CCDE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF762591EA034B8007CCDE5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BDF7625B1EA034B8007CCDE5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BDF7625E1EA034B8007CCDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF762601EA034B8007CCDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF762631EA034B8007CCDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF762651EA034B8007CCDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF7626A1EA034B8007CCDE5 /* LifebloodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifebloodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF7626E1EA034B8007CCDE5 /* LifebloodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifebloodTests.swift; sourceTree = "<group>"; };
+		BDF762701EA034B8007CCDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF762751EA034B8007CCDE5 /* LifebloodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifebloodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF762791EA034B8007CCDE5 /* LifebloodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifebloodUITests.swift; sourceTree = "<group>"; };
+		BDF7627B1EA034B8007CCDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF762881EA03ACD007CCDE5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BDF7628A1EA03ADB007CCDE5 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		BDF7628C1EA03C8B007CCDE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4AE5C5D28E87EA8141E4270 /* Pods-LifebloodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifebloodTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifebloodTests/Pods-LifebloodTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF762511EA034B8007CCDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C85113A142788574C92684 /* Pods_Lifeblood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF762671EA034B8007CCDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15329B2DCC81796AE806422D /* Pods_LifebloodTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF762721EA034B8007CCDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28FA7EC5CF9803DF80700FD /* Pods_LifebloodUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBBDC0D13F75AD17F13D7DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71B2EBDB416E9F736511F453 /* Pods_Lifeblood.framework */,
+				18DC974602FB0E5A1416992A /* Pods_LifebloodTests.framework */,
+				9FAE4810E717D96187642BDB /* Pods_LifebloodUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF7624B1EA034B8007CCDE5 = {
+			isa = PBXGroup;
+			children = (
+				BDF762561EA034B8007CCDE5 /* Lifeblood */,
+				BDF7626D1EA034B8007CCDE5 /* LifebloodTests */,
+				BDF762781EA034B8007CCDE5 /* LifebloodUITests */,
+				BDF762551EA034B8007CCDE5 /* Products */,
+				FC16E16C986CFE13AD072F71 /* Pods */,
+				2BBBDC0D13F75AD17F13D7DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF762551EA034B8007CCDE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF762541EA034B8007CCDE5 /* Lifeblood.app */,
+				BDF7626A1EA034B8007CCDE5 /* LifebloodTests.xctest */,
+				BDF762751EA034B8007CCDE5 /* LifebloodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF762561EA034B8007CCDE5 /* Lifeblood */ = {
+			isa = PBXGroup;
+			children = (
+				BDF762871EA03AA8007CCDE5 /* Authentication */,
+				BDF762571EA034B8007CCDE5 /* AppDelegate.swift */,
+				BDF762591EA034B8007CCDE5 /* FirstViewController.swift */,
+				BDF7625B1EA034B8007CCDE5 /* SecondViewController.swift */,
+				BDF7625D1EA034B8007CCDE5 /* Main.storyboard */,
+				BDF762601EA034B8007CCDE5 /* Assets.xcassets */,
+				BDF762621EA034B8007CCDE5 /* LaunchScreen.storyboard */,
+				BDF762651EA034B8007CCDE5 /* Info.plist */,
+				BDF7628C1EA03C8B007CCDE5 /* GoogleService-Info.plist */,
+			);
+			path = Lifeblood;
+			sourceTree = "<group>";
+		};
+		BDF7626D1EA034B8007CCDE5 /* LifebloodTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF7626E1EA034B8007CCDE5 /* LifebloodTests.swift */,
+				BDF762701EA034B8007CCDE5 /* Info.plist */,
+			);
+			path = LifebloodTests;
+			sourceTree = "<group>";
+		};
+		BDF762781EA034B8007CCDE5 /* LifebloodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF762791EA034B8007CCDE5 /* LifebloodUITests.swift */,
+				BDF7627B1EA034B8007CCDE5 /* Info.plist */,
+			);
+			path = LifebloodUITests;
+			sourceTree = "<group>";
+		};
+		BDF762871EA03AA8007CCDE5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BDF762881EA03ACD007CCDE5 /* LoginViewController.swift */,
+				BDF7628A1EA03ADB007CCDE5 /* SignupViewController.swift */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		FC16E16C986CFE13AD072F71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11D446D7414CD256B468B3CC /* Pods-Lifeblood.debug.xcconfig */,
+				2725A484E380D11BB89034CD /* Pods-Lifeblood.release.xcconfig */,
+				C4AE5C5D28E87EA8141E4270 /* Pods-LifebloodTests.debug.xcconfig */,
+				B5EAFB4468858D56999140F9 /* Pods-LifebloodTests.release.xcconfig */,
+				609F62BFEB81AA66E2DC6258 /* Pods-LifebloodUITests.debug.xcconfig */,
+				4C1547EC68FAC53BD72D1149 /* Pods-LifebloodUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF762531EA034B8007CCDE5 /* Lifeblood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF7627E1EA034B8007CCDE5 /* Build configuration list for PBXNativeTarget "Lifeblood" */;
+			buildPhases = (
+				A58DE35C418D1D050D9EFE8C /* [CP] Check Pods Manifest.lock */,
+				BDF762501EA034B8007CCDE5 /* Sources */,
+				BDF762511EA034B8007CCDE5 /* Frameworks */,
+				BDF762521EA034B8007CCDE5 /* Resources */,
+				97CC7E423B4E40490A095F4E /* [CP] Embed Pods Frameworks */,
+				7B7AABDC2A795D1C6D82F2AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lifeblood;
+			productName = Lifeblood;
+			productReference = BDF762541EA034B8007CCDE5 /* Lifeblood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF762691EA034B8007CCDE5 /* LifebloodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF762811EA034B8007CCDE5 /* Build configuration list for PBXNativeTarget "LifebloodTests" */;
+			buildPhases = (
+				51BFEC0B0405193E3CF1863D /* [CP] Check Pods Manifest.lock */,
+				BDF762661EA034B8007CCDE5 /* Sources */,
+				BDF762671EA034B8007CCDE5 /* Frameworks */,
+				BDF762681EA034B8007CCDE5 /* Resources */,
+				847B81C9E3B55EC18CFF5234 /* [CP] Embed Pods Frameworks */,
+				9E812BB0C1AD9BFBD4E914E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF7626C1EA034B8007CCDE5 /* PBXTargetDependency */,
+			);
+			name = LifebloodTests;
+			productName = LifebloodTests;
+			productReference = BDF7626A1EA034B8007CCDE5 /* LifebloodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDF762741EA034B8007CCDE5 /* LifebloodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF762841EA034B8007CCDE5 /* Build configuration list for PBXNativeTarget "LifebloodUITests" */;
+			buildPhases = (
+				017396C9B098DA2C7A30BEBF /* [CP] Check Pods Manifest.lock */,
+				BDF762711EA034B8007CCDE5 /* Sources */,
+				BDF762721EA034B8007CCDE5 /* Frameworks */,
+				BDF762731EA034B8007CCDE5 /* Resources */,
+				15A799311EABEC0DEEAA6067 /* [CP] Embed Pods Frameworks */,
+				74970DE98BABFA5B5C7C2E09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF762771EA034B8007CCDE5 /* PBXTargetDependency */,
+			);
+			name = LifebloodUITests;
+			productName = LifebloodUITests;
+			productReference = BDF762751EA034B8007CCDE5 /* LifebloodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF7624C1EA034B8007CCDE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = btong;
+				TargetAttributes = {
+					BDF762531EA034B8007CCDE5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VY94VZLE2N;
+						ProvisioningStyle = Automatic;
+					};
+					BDF762691EA034B8007CCDE5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VY94VZLE2N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDF762531EA034B8007CCDE5;
+					};
+					BDF762741EA034B8007CCDE5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VY94VZLE2N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDF762531EA034B8007CCDE5;
+					};
+				};
+			};
+			buildConfigurationList = BDF7624F1EA034B8007CCDE5 /* Build configuration list for PBXProject "Lifeblood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF7624B1EA034B8007CCDE5;
+			productRefGroup = BDF762551EA034B8007CCDE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF762531EA034B8007CCDE5 /* Lifeblood */,
+				BDF762691EA034B8007CCDE5 /* LifebloodTests */,
+				BDF762741EA034B8007CCDE5 /* LifebloodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF762521EA034B8007CCDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF762641EA034B8007CCDE5 /* LaunchScreen.storyboard in Resources */,
+				BDF7628D1EA03C8B007CCDE5 /* GoogleService-Info.plist in Resources */,
+				BDF762611EA034B8007CCDE5 /* Assets.xcassets in Resources */,
+				BDF7625F1EA034B8007CCDE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF762681EA034B8007CCDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF7628E1EA03C8B007CCDE5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF762731EA034B8007CCDE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF7628F1EA03C8B007CCDE5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		017396C9B098DA2C7A30BEBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15A799311EABEC0DEEAA6067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifebloodUITests/Pods-LifebloodUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51BFEC0B0405193E3CF1863D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74970DE98BABFA5B5C7C2E09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifebloodUITests/Pods-LifebloodUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7AABDC2A795D1C6D82F2AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lifeblood/Pods-Lifeblood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847B81C9E3B55EC18CFF5234 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifebloodTests/Pods-LifebloodTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97CC7E423B4E40490A095F4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lifeblood/Pods-Lifeblood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E812BB0C1AD9BFBD4E914E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifebloodTests/Pods-LifebloodTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A58DE35C418D1D050D9EFE8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF762501EA034B8007CCDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF762891EA03ACD007CCDE5 /* LoginViewController.swift in Sources */,
+				BDF7625C1EA034B8007CCDE5 /* SecondViewController.swift in Sources */,
+				BDF7628B1EA03ADB007CCDE5 /* SignupViewController.swift in Sources */,
+				BDF762581EA034B8007CCDE5 /* AppDelegate.swift in Sources */,
+				BDF7625A1EA034B8007CCDE5 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF762661EA034B8007CCDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF7626F1EA034B8007CCDE5 /* LifebloodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF762711EA034B8007CCDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF7627A1EA034B8007CCDE5 /* LifebloodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF7626C1EA034B8007CCDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF762531EA034B8007CCDE5 /* Lifeblood */;
+			targetProxy = BDF7626B1EA034B8007CCDE5 /* PBXContainerItemProxy */;
+		};
+		BDF762771EA034B8007CCDE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF762531EA034B8007CCDE5 /* Lifeblood */;
+			targetProxy = BDF762761EA034B8007CCDE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF7625D1EA034B8007CCDE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF7625E1EA034B8007CCDE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF762621EA034B8007CCDE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF762631EA034B8007CCDE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF7627C1EA034B8007CCDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF7627D1EA034B8007CCDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF7627F1EA034B8007CCDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D446D7414CD256B468B3CC /* Pods-Lifeblood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = Lifeblood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = btong.Lifeblood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDF762801EA034B8007CCDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2725A484E380D11BB89034CD /* Pods-Lifeblood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = Lifeblood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = btong.Lifeblood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BDF762821EA034B8007CCDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AE5C5D28E87EA8141E4270 /* Pods-LifebloodTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = LifebloodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = btong.LifebloodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lifeblood.app/Lifeblood";
+			};
+			name = Debug;
+		};
+		BDF762831EA034B8007CCDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EAFB4468858D56999140F9 /* Pods-LifebloodTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = LifebloodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = btong.LifebloodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lifeblood.app/Lifeblood";
+			};
+			name = Release;
+		};
+		BDF762851EA034B8007CCDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609F62BFEB81AA66E2DC6258 /* Pods-LifebloodUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = LifebloodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = btong.LifebloodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lifeblood;
+			};
+			name = Debug;
+		};
+		BDF762861EA034B8007CCDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1547EC68FAC53BD72D1149 /* Pods-LifebloodUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VY94VZLE2N;
+				INFOPLIST_FILE = LifebloodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = btong.LifebloodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lifeblood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF7624F1EA034B8007CCDE5 /* Build configuration list for PBXProject "Lifeblood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF7627C1EA034B8007CCDE5 /* Debug */,
+				BDF7627D1EA034B8007CCDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF7627E1EA034B8007CCDE5 /* Build configuration list for PBXNativeTarget "Lifeblood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF7627F1EA034B8007CCDE5 /* Debug */,
+				BDF762801EA034B8007CCDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF762811EA034B8007CCDE5 /* Build configuration list for PBXNativeTarget "LifebloodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF762821EA034B8007CCDE5 /* Debug */,
+				BDF762831EA034B8007CCDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF762841EA034B8007CCDE5 /* Build configuration list for PBXNativeTarget "LifebloodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF762851EA034B8007CCDE5 /* Debug */,
+				BDF762861EA034B8007CCDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF7624C1EA034B8007CCDE5 /* Project object */;
+}

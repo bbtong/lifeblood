@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>828419978876-a32jdm8cqvneo484ndfdacb4p61ocfta.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.828419978876-a32jdm8cqvneo484ndfdacb4p61ocfta</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAEjcWGDQSaboB9jLGdxY3frtVsyIEnUos</string>
+	<key>GCM_SENDER_ID</key>
+	<string>828419978876</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>btong.Lifeblood</string>
+	<key>PROJECT_ID</key>
+	<string>lifeblood-4099a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lifeblood-4099a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:828419978876:ios:f0a6e4d11a0a6a95</string>
+	<key>DATABASE_URL</key>
+	<string>https://lifeblood-4099a.firebaseio.com</string>
+</dict>
+</plist>
