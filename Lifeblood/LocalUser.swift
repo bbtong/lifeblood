@@ -39,7 +39,7 @@ class LocalUser {
         let thisUser = FIRAuth.auth()?.currentUser
         username = thisUser?.displayName
         uid = thisUser?.uid
-        let currentUser = dbRef.child((thisUser?.email)!)
+        let currentUser = dbRef.child((thisUser?.uid)!)
         // more init stuff
         name = currentUser.value(forKeyPath: "name") as! String
         age = currentUser.value(forKeyPath: "age") as! String

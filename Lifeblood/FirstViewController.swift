@@ -13,8 +13,6 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     let dbRef = FIRDatabase.database().reference()
     
-    let localUser = LocalUser()
-
     @IBOutlet weak var matchesTableView: UITableView!
     
     override func viewDidLoad() {
@@ -78,16 +76,6 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let cell = tableView.dequeueReusableCell(withIdentifier: "matchCell", for: indexPath) as! MatchFirstViewCell
         cell.bloodTypeLabel.text = "O+"
         cell.nameAndLocation.text = "Test Tester from 94704"
-        /*if let post = getPostFromIndexPath(indexPath: indexPath) {
-            if post.read {
-                cell.readImageView.image = UIImage(named: "read")
-            }
-            else {
-                cell.readImageView.image = UIImage(named: "unread")
-            }
-            cell.usernameLabel.text = post.username
-            cell.timeElapsedLabel.text = post.getTimeElapsedString()
-        }*/
         return cell
     }
 
