@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		15329B2DCC81796AE806422D /* Pods_LifebloodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DC974602FB0E5A1416992A /* Pods_LifebloodTests.framework */; };
 		A28FA7EC5CF9803DF80700FD /* Pods_LifebloodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAE4810E717D96187642BDB /* Pods_LifebloodUITests.framework */; };
+		BD442A051EB95CE300F69DE1 /* LocalUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD442A041EB95CE300F69DE1 /* LocalUser.swift */; };
+		BD442A071EB998CA00F69DE1 /* MatchFirstViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD442A061EB998CA00F69DE1 /* MatchFirstViewCell.swift */; };
 		BDF762581EA034B8007CCDE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF762571EA034B8007CCDE5 /* AppDelegate.swift */; };
 		BDF7625A1EA034B8007CCDE5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF762591EA034B8007CCDE5 /* FirstViewController.swift */; };
 		BDF7625C1EA034B8007CCDE5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7625B1EA034B8007CCDE5 /* SecondViewController.swift */; };
@@ -51,6 +53,8 @@
 		71B2EBDB416E9F736511F453 /* Pods_Lifeblood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lifeblood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAE4810E717D96187642BDB /* Pods_LifebloodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifebloodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EAFB4468858D56999140F9 /* Pods-LifebloodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifebloodTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifebloodTests/Pods-LifebloodTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD442A041EB95CE300F69DE1 /* LocalUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalUser.swift; sourceTree = "<group>"; };
+		BD442A061EB998CA00F69DE1 /* MatchFirstViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchFirstViewCell.swift; sourceTree = "<group>"; };
 		BDF762541EA034B8007CCDE5 /* Lifeblood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifeblood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF762571EA034B8007CCDE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF762591EA034B8007CCDE5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BD442A011EB95C8300F69DE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD442A041EB95CE300F69DE1 /* LocalUser.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BD442A031EB95CBE00F69DE1 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD442A061EB998CA00F69DE1 /* MatchFirstViewCell.swift */,
+				BDF762591EA034B8007CCDE5 /* FirstViewController.swift */,
+				BDF7625B1EA034B8007CCDE5 /* SecondViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
 		BDF7624B1EA034B8007CCDE5 = {
 			isa = PBXGroup;
 			children = (
@@ -136,8 +158,8 @@
 			children = (
 				BDF762871EA03AA8007CCDE5 /* Authentication */,
 				BDF762571EA034B8007CCDE5 /* AppDelegate.swift */,
-				BDF762591EA034B8007CCDE5 /* FirstViewController.swift */,
-				BDF7625B1EA034B8007CCDE5 /* SecondViewController.swift */,
+				BD442A031EB95CBE00F69DE1 /* View Controller */,
+				BD442A011EB95C8300F69DE1 /* Model */,
 				BDF7625D1EA034B8007CCDE5 /* Main.storyboard */,
 				BDF762601EA034B8007CCDE5 /* Assets.xcassets */,
 				BDF762621EA034B8007CCDE5 /* LaunchScreen.storyboard */,
@@ -478,7 +500,9 @@
 				BDF7625C1EA034B8007CCDE5 /* SecondViewController.swift in Sources */,
 				BDF7628B1EA03ADB007CCDE5 /* SignupViewController.swift in Sources */,
 				BDF762581EA034B8007CCDE5 /* AppDelegate.swift in Sources */,
+				BD442A051EB95CE300F69DE1 /* LocalUser.swift in Sources */,
 				BDF7625A1EA034B8007CCDE5 /* FirstViewController.swift in Sources */,
+				BD442A071EB998CA00F69DE1 /* MatchFirstViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
